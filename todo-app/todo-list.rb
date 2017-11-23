@@ -9,6 +9,6 @@ class TodoList
   end
 
   def to_s
-    "#{@name}\n#{@todos.join("\n\t")}"
+    "#{@name}\n\t#{@todos.join("\n\t")}"
   end
 end
