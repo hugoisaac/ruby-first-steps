@@ -5,7 +5,7 @@ class Todo
   end
 
   def to_s
-    when_ = @when ? "| #{@when}" : ""
-    "#{@what} #{when_}"
+    when_with_separator = @when && " | #{@when}"
+    "#{@what}#{when_with_separator}"
   end
 end
