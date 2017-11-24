@@ -1,4 +1,4 @@
-require "./todo-list.rb"
+require "./todo_list.rb"
 require "./todo.rb"
 
 # NOTE: Following https://github.com/bbatsov/ruby-style-guide style guide.
